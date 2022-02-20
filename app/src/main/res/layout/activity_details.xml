@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#24272c">
+
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#24272c">
+
+        <ImageView
+            android:id="@+id/backdrop_background_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:foreground="@drawable/gradients"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ehugq10fuzk1mdoy69wf5pggef5" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:id="@+id/poster_view"
+                        android:layout_width="155dp"
+                        android:layout_height="220dp"
+                        android:scaleType="centerCrop"
+                        tools:src="@drawable/ehugq10fuzk1mdoy69wf5pggef5" />
+
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/title_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="80dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textColor="#F4E7E7"
+                        android:textSize="24sp"
+                        tools:text="Finding Nemo" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:weightSum="1.0">
+
+                        <TextView
+                            android:id="@+id/year_release_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:textColor="#F4E7E7"
+                            android:textSize="16sp"
+                            tools:text="2010" />
+
+                        <TextView
+                            android:id="@+id/runtime_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0"
+                            android:textColor="#F4E7E7"
+                            android:textSize="16sp"
+                            tools:text="124 min" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginBottom="20dp">
+
+                        <TextView
+                            android:id="@+id/average_score_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/white"
+                            android:textSize="19sp"
+                            tools:text="8.4" />
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="21dp"
+                            android:layout_marginTop="3.5dp"
+                            android:layout_marginRight="20dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/imdb" />
+
+                        <TextView
+                            android:id="@+id/genre_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            tools:text="Comedy, Fantasy, Adventure"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_trailer_view"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#4ECA51"
+                android:drawableLeft="@drawable/ic_sin_t_tulo_1"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/watch"
+                android:textColor="#24272c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/overview_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/white"
+                tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet posuere eros condimentum laoreet. Fusce ante ex, suscipit pretium euismod id, mattis sit amet lacus. Curabitur quis tellus sed mauris gravida placerat. Integer ut odio et dui consectetur elementum a vitae arcu. Nunc nisl libero, maximus elementum ante ut, sagittis malesuada lectus. Donec orci magna, facilisis a ligula at, dictum fringilla nulla. Donec blandit non urna at venenatis. Maecenas a tempus nisl. Nullam placerat hendrerit rhoncus.
+
+Morbi elementum faucibus mi, eu maximus mi finibus eu. Cras sed molestie metus. Suspendisse euismod laoreet lorem sit amet accumsan. Sed at arcu quis nunc ultrices finibus. Praesent pretium iaculis nulla, a aliquam nibh ultricies nec. Donec aliquet faucibus nulla vel blandit. Curabitur ut viverra arcu, vel ultrices mauris. Maecenas pharetra nec nisl vel dictum. Integer id commodo mauris." />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="DIRECTOR"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/director_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bladimir Abud"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="STUDIOS"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/studios_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bladimir Abud"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:text="ACTORS"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/actors_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bladimir Abud, Muhamed Ali,"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

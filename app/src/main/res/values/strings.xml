@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="watch">watch</string>
+    <string name="min">min</string>
+    <string name="movies_search_hint">Search Movies...</string>
+</resources>
