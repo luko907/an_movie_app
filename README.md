@@ -1,4 +1,4 @@
-# MoviesApp
+# Android Movie App
 "This product uses the TMDB API but is not endorsed or certified by TMDB."
 
 This a movie app powered by the omdbapi API and  the TMDB API
